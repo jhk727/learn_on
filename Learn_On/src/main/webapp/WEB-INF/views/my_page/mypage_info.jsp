@@ -88,14 +88,15 @@
 								<label>변경할 비밀번호</label>
 								<div id="checkPasswd1"></div>
 								<div>
-									<input type="password" id="mem_passwd1" name="mem_passwd" onblur="checkPasswdLength1()" placeholder="변경할 비밀번호 8 ~ 16글자 사이 입력">
+<!-- 									<input type="password" id="mem_passwd1" name="mem_passwd" onblur="checkPasswdLength1()" placeholder="변경할 비밀번호 8 ~ 16글자 사이 입력"> -->
+									<input type="password" id="mem_passwd1" name="mem_passwd" placeholder="새비밀번호 입력">
 								</div>
 							</div>
 							<div class="set">	
 								<label>변경할 비밀번호 재입력</label>
 								<div id="checkPasswd2"></div>
 								<div>
-									<input type="password" id="mem_passwd2" onblur="checkPasswdResult()" placeholder="변경할 비밀번호 재입력">
+									<input type="password" id="mem_passwd2" onblur="checkPasswdResult()" placeholder="새비밀번호 재입력">
 								</div>
 							</div>
 							<div class="set">

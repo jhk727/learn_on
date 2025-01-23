@@ -97,7 +97,6 @@ function checkId(){
 }
  		
 /**************닉네임 중복검사************* */
-
 function ckNick(){
 	let nick = $("#mem_nick").val();
 	let regex = /^[\w가-힣]{2,8}$/;
@@ -176,7 +175,6 @@ function checkPasswdLength1() {
 }
 
 // ************* 비밀번호 같은지 검사**************
-
 function checkPasswdResult(){
 	let passwd1 = $("#mem_passwd1").val();
 	let passwd2 = $("#mem_passwd2").val();
@@ -192,7 +190,7 @@ function checkPasswdResult(){
 	}
 }
 
-/**********전화전호 유효성 검사********* */
+/**********전화번호 유효성 검사********* */
 function phoneCheck(){
 	let phone = $("#mem_phone").val();
 	let regex = /^[0-9]{11}$/;
